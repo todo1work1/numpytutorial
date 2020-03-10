@@ -14,3 +14,10 @@ My numpy learnings
 - myndarray2d.shape //(2,4)
 - myndarray2d = np.array([[1,2,2,3], ['a','b','c']]) // 2d array
 - myndarray2d.shape //(2,) // uneven
+
+#Numpy Day2:
+- myndarray.dtype => actual datatype of data in np array
+- All Data in an nparray are tried to converted into a single datatype, in the order string, float, int
+- myndarray.size => number of elements in total in np array
+- myndarray.ndim => give the dimension of the array
+- myndarray.fill(value) => will fill the corresponding value in all the index of the given ndarray
